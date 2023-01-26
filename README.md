@@ -1,8 +1,8 @@
 # FlashForge Creator Pro Marlin conversion
 
-Quick guide on converting *[FlashForge Creator Pro](https://www.flashforge.com/consumer/detail/Creator%20Pro?id=4)* running Sailfish firmware to the *[Marlin](https://github.com/MarlinFirmware/Marlin)* firmware. Not intended for faint of heart. This guide is not 100% complete and it stands here a reference for future development.
+Guide on converting *[FlashForge Creator Pro](https://www.flashforge.com/consumer/detail/Creator%20Pro?id=4)* running Sailfish firmware to the *[Marlin](https://github.com/MarlinFirmware/Marlin)* firmware. Not intended for faint of heart. This guide is not 100% complete and it stands here a reference for future development.
 
-DISCLAIMER: By using this guide you are fully aware of the risks involved by such modifications. I hereby take no responsibility for any loss and/or damage to property and/or personnel involved. DO THIS ON YOUR OWN RISK.
+DISCLAIMER: By using this guide you are fully aware of the risks involved by such modifications. I hereby take no responsibility for any loss and/or damage to property and/or personnel involved. DO THIS ON YOUR OWN RISK. 
 
 ## Tools
 
@@ -15,9 +15,15 @@ DISCLAIMER: By using this guide you are fully aware of the risks involved by suc
 
 Any compatible programmer such as *[USBasp](https://www.fischl.de/usbasp/)* or *[ArduinoISP](https://www.arduino.cc/en/tutorial/arduinoISP)* will be sufficient for this modification. I recommend using *[AVRDUDESS](https://github.com/zkemble/AVRDUDESS)* as this will make this task easier.
 
+For the purposes of this guide, i will be using an Arduino uno with ArduinoISP and AVRDude. This guide will not assume anything, and some will find some instructions redundant.
+
 ## Procedure
 
 ### Preparation
+
+ Install the Arduino *[IDE](https://www.arduino.cc/en/software)*
+ 
+ Once it is installed and set up, go ahead and open it up.
 
 First thing is to gain access to the motherboard of your 3D printer. Easily achieved by loosening screws on the printers bottom. Once that is done and cover carefully removed you can proceed to the following steps.
 
